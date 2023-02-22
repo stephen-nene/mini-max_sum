@@ -2,9 +2,12 @@
 
 ## duties
 ### 1. ruby and space complexity
+-
+-
 
 ### 2. javaScript and space complexity
-
+-
+-
 
 Today I'm going to show you a code solution for finding the minimum and maximum sum of exactly four elements from a given array of five positive integers.
 
@@ -23,9 +26,9 @@ That's it for today. I hope you found this presentation helpful and understood t
 
 The algorithm used in this code is to sort the array in ascending order, and then calculate the sum of the first four elements for the minimum sum and the sum of the last four elements for the maximum sum.
 ## complexity
-### space
+### Space
 The space complexity of this code is O(1), as it does not create any new data structures, only a few variables to store the sums.
-### time
+### Time
 The time complexity of this code is O(n log n), where n is the number of elements in the array arr. This is because the sorting operation, which is performed using the sort! method, has a time complexity of O(n log n) in the worst case. The rest of the code has a time complexity of O(n), which is the time it takes to calculate the sum of the first four and last four elements.
 
 In conclusion, the overall time complexity of this code is O(n log n)..
